@@ -1,0 +1,17 @@
+2018-11-01T01:44:21.256Z [docFX-migration-tool] info: [migrate.main] migrating repository: E:\docsets\opconfig-tester
+2018-11-01T01:44:21.272Z [docFX-migration-tool] info: [ops-redirection-provider.getOPRedirections]: no redirection file found
+2018-11-01T01:44:21.272Z [docFX-migration-tool] info: [ops-server-resource-provider.getOPPublishConfig] Get https://op-build-sandbox2.azurewebsites.net/v1/Configurations?git_repo_url=https%3A%2F%2Fgithub.com%2FLucasDvp%2Fopconfig-tester
+2018-11-01T01:44:21.278Z [docFX-migration-tool] info: [ops-server-resource-provider.getDocfxConfigs] Get https://op-build-sandbox2.azurewebsites.net/v1/Configurations/docfx?git_repo_url=https%3A%2F%2Fgithub.com%2FLucasDvp%2Fopconfig-tester
+2018-11-01T01:44:21.278Z [docFX-migration-tool] info: [ops-server-resource-provider.getDocSets] Get https://op-build-sandbox2.azurewebsites.net/v2/Queries/Docsets?git_repo_url=https%3A%2F%2Fgithub.com%2FLucasDvp%2Fopconfig-tester&docset_query_status=Created
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [content-migrator.migrateAllDocfxConfigs] migrating content configs: 1 docfx config found 
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [content-migrator.migrateSingleDocfxConfig] migrating content config in docset: opconfigtest
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [redirection-migrator.migrate] migrating redirections config
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [dependency-migrator.migrate] migrating dependent repositories, 1 dependency found
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [route-migrator.migrateAllDocfxConfigs] migrating route configs: 1 docfx config found 
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [route-migrator.migrateSingleDocfxConfig] migrating route config in docset: opconfigtest
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [contribution-migrator.migrateAllDocfxConfigs] migrating contribution configs: 1 docfx config found 
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [route-migrator.migrateSingleDocfxConfig] extracting excluded contributors in docset: opconfigtest
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [document-id-migrator.migrateSingleDocfxConfig] migrating route config in docset: opconfigtest
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [global-metadata-migrator.migrateSingleDocfxConfig] migrating global metadata in docset: opconfigtest
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [file-metadata-migrator.migrateSingleDocfxConfig] migrating file metadata in docset: opconfigtest
+2018-11-01T01:44:23.044Z [docFX-migration-tool] info: [output-config-migrator.migrate] migrating output config

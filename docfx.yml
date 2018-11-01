@@ -1,0 +1,51 @@
+name: opconfigtest
+product: MSDN
+content:
+  include:
+    - opconfig/**/*.md
+    - opconfig/**/*.yml
+  exclude:
+    - opconfig/**/obj/**
+    - opconfig/**/includes/**
+    - opconfig/_themes/**
+    - opconfig/_themes.pdf/**
+    - opconfig/README.md
+    - opconfig/LICENSE
+    - opconfig/LICENSE-CODE
+    - opconfig/ThirdPartyNotices
+output:
+  pdf: false
+baseUrl: 'https://docs.microsoft.com'
+documentId:
+  sourceBasePath: opconfig
+  siteBasePath: opconfigtest
+  depotMappings: {}
+  directoryMappings: {}
+globalMetadata:
+  breadcrumb_path: /opconfigtest/breadcrumb/toc.json
+  extendBreadcrumb: true
+  feedback_system: None
+routes:
+  opconfig/: opconfigtest/
+rules:
+  null-value: 'off'
+  author-not-found: 'off'
+  file-not-found: 'off'
+  at-uid-not-found: 'off'
+  redirected-id-conflict: 'off'
+  link-out-of-scope: 'off'
+  yaml-header-not-object: 'off'
+  codesnippet-not-found: 'off'
+  include-not-found: 'off'
+  unknown-field: 'off'
+  bookmark-not-found: 'off'
+gitHub:
+  resolveUsers: true
+contribution:
+  gitCommitsTime: build_history.json
+  excludedContributors: []
+dependencies:
+  _themes: 'https://github.com/Microsoft/templates.docs.msft'
+fileMetadata: []
+redirections: {}
+redirectionsWithoutId: {}
